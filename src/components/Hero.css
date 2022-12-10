@@ -1,0 +1,42 @@
+.hero-container {
+    background: url('../components/images/car.jpg') center center/cover no-repeat;
+    height: 30rem;
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
+
+.hero-container > h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.para {
+    color: #fff;
+    font-size: 75px;
+}
+
+.hero-container > p {
+    color: #fff;
+    font-size: 33px;
+    margin-top: 8px;
+
+}
+
+.hero-btns {
+    margin-top: 32px;
+
+}
+
+.hero-btns .btn{
+    margin: 6px;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
